@@ -1,0 +1,9 @@
+INDEX VERSION 1.132
+G:\0 ILLINOSKA\Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1840364391.index
+\Tokoshop\src
+G:\0 ILLINOSKA\Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2057403109.index
+\Tokoshop\src
+G:\0 ILLINOSKA\Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1616418247.index
+\Tokoshop\src
+G:\0 ILLINOSKA\Eclipse Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3257116648.index
+\Tokoshop\src

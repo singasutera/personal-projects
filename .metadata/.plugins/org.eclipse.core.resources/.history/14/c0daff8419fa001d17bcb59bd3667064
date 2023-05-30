@@ -1,0 +1,26 @@
+<%@page import="com.singasutera.connection.DbConnection"%>
+<%@page import="com.singasutera.model.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+	
+<%	User loginSession = (User) request.getSession().getAttribute("login-session");
+	if (loginSession != null) {
+		request.setAttribute("login-session", loginSession);
+	}
+%>
+	
+<!doctype html>
+<html lang="en">
+<head>
+<title>Tokoshop</title>
+<%@include file="bootstrap/css.jsp"%>
+</head>
+
+<body>
+	<%@include file="bootstrap/navbar.jsp" %>
+	
+	<% out.print(DbConnection.getConnection()); %>
+	
+	<%@include file="bootstrap/popper-js.jsp"%>
+</body>
+</html>

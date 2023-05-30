@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!doctype html>
+<html lang="en">
+<head>
+<title>Tokoshop Login</title>
+<%@include file="bootstrap/css.jsp"%>
+</head>
+<body>
+	<%@include file="bootstrap/navbar.jsp"%>
+	<div class="container">
+		<div class="card w-50 mx-auto my-5">
+			<div class="card-header text-center">User Login</div>
+			<div class="card-body">
+				<form action="user-login" method="post">
+					<div class="mb-3">
+						<label class="form-label">Username</label> <input type="text"
+							class="form-control" name="login-username"
+							placeholder="Input your username" required>
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label">Password</label> <input type="password"
+							class="form-control" name="login-password"
+							placeholder="*********" required>
+					</div>
+
+					<div class="text-center">
+						<button type="submit" class="btn btn-primary">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+
+	<%@include file="bootstrap/popper-js.jsp"%>
+</body>
+</html>
