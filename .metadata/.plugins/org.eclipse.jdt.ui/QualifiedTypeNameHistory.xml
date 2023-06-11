@@ -4,8 +4,15 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.singasutera.dao.UserDao"/>
     <fullyQualifiedTypeName name="com.singasutera.connection.DbConnection"/>
     <fullyQualifiedTypeName name="com.singasutera.model.User"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.singasutera.model.Product"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.singasutera.model.Transaksi"/>
+    <fullyQualifiedTypeName name="com.singasutera.model.BidangTanah"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.singasutera.model.Properti"/>
 </qualifiedTypeNameHistroy>
